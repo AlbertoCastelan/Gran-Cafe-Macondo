@@ -1,387 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <!--TELLS THE MOBILE PHONE NOT TO LIE ABOUT THEIR TRUE WIDTH-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-        
-    <!-- GOOGLE FONTS TAKEN FROM THEIR WEBSITE -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Satisfy|Lobster|Dancing+Script" rel="stylesheet">
-        
-    <!-- FONT AWESOME CDN FOR ICONS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        
-    <!-- CSS ANIMATE AN ELEMENT ON MY CODE -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
-       
-    <!-- ADD BOOTSTRAP-->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
-    <!-- CSS RESET NORMALIZE  -->
-    <!--<link href="css/normalize.css" rel="stylesheet" type="text/css">-->
-    <!-- CSS STYLE SHEET -->
-    <link rel="stylesheet" href="css/styles.css">
-    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Gran Café Macondo</title>
-</head>
-<body>
-   
-<!------------------------------------------------- HEADER SECTION ----------------------------------------------------------------------------->
-    <div class="main-menu">
-            
-            <nav id="desk" class="navBar">
-                <ul class="listMenu">
-                    <li>
-                    <a href="#home">Home</a>
-                    </li>
-                    <li>
-                    <a href="#products">Products</a>
-                    </li>
-                    <li>
-                    <a href="#sales">Sales</a>
-                    </li>
-                    <li>
-                    <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            
-            <nav id="mobile" class="navBar">
-                <span class="navBtn">
-                  <i class="fas fa-bars" aria-hidden="true"></i> 
-                  <i class="fas fa-times" aria-hidden="true"></i>  
-                </span>
-                 
-               
-                <ul class="listMenu">
-                    <li>
-                    <a href="#home">Home</a>
-                    </li>
-                    <li>
-                    <a href="#products">Products</a>
-                    </li>
-                    <li>
-                    <a href="#sales">Sales</a>
-                    </li>
-                    <li>
-                    <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            
+  </head>
+  <body>
+
+    <header class="header">
+      <img class="header__logo" src="./img/logo_small_icon_only_inverted.png" alt="">
+      <div class="header__bars">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="header__nav">
+        <div class="header__times">
+          <span>&times;</span>
         </div>
-       
-    <header class="sections" id="home">
-                           
-    <div class="description">
-            <div class="introduction">
-                <h2 id="slogan">Gran Café Macondo</h2>
-                <h4>Café de Colombia, 100% Quality</h4>
-                <p>
-                    Our coffee producers come from the various regions of South America to offer you our very best in coffee brands.
-                </p>
-            </div>
-    </div>
-        
-            
+        <ul class="header__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="story.html">Our Story</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="shopping.html">Shopping</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </header>
-    
-<!-- MAIN SECTIONS -->
-  
-  
-<!----------------------------------------------------- PRODUCT SECTION ------------------------------------------------------------------------>
-  
-   <section class="sections" id="products">
-       
-       <h2 id="productsSections">Coffee and Tea Menu</h2>
-       
-       <div class="images">
 
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/cappucino.jpg" alt="Cappucino">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;2.60</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article> 
-           
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/latte.jpg" alt="Latte">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;2.60</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
-           
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/irishcoffee.jpg" alt="Irish Coffee">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;3.50</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
-           
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/vienessecoffee.jpg" alt="Vienesse Coffee">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;3.40</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
-           
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/hotchocolate.jpg" alt="Hot Chocolate">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;2.20</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
-              
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/strawberryshake.jpg" alt="Strawberry Shake">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;4.20</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
-              
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/redtea.jpg" alt="Red Tea">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;2.00</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
-           
-           <article class="coffeeMenu">
-               <figure>
-                   <img src="img/greentea.jpg" alt="Green Tea">
-                   <figcaption class="pDetail">
-                       <strong class="price">&#163;2.00</strong>
-                   </figcaption>
-                   <button class="addToCart">
-                       <a href="#">Order</a>
-                   </button>
-               </figure>
-           </article>
+    <div class="home">
+      <img class="home__logo" src="./img/logo_white_large.png" alt="">
+    </div>
 
-           <article class="coffeeMenu">
-            <figure>
-                <img src="img/pepperminttea.jpg" alt="Peppermint Tea">
-                <figcaption class="pDetail">
-                    <strong class="price">&#163;2.90</strong>
-                </figcaption>
-                <button class="addToCart">
-                    <a href="#">Order</a>
-                </button>
-            </figure>
-        </article>
-           
-       </div>
-   </section>   
-   
-  <!-------------------------------------------- SALES SECTION ---------------------------------------------------------------------------->
-   
-   <section class="sections" id="sales">
-     
-     <h2 id="salessection">Purchase from our online shop</h2>
-      
-      <div class="images">
-              
-       <article class="onlineshop">
-           <figure>
-               <img src="img/expresso.png" alt="Italian Expresso">
-               <figcaption>
-                   <strong>&#163;15</strong>
-               </figcaption>
-               <button class="addToCart">
-                   <a href="#">Place in Basket</a>
-               </button>
-           </figure>
-       </article>
-          
-       <article class="onlineshop">
-           <figure>
-               <img src="img/nespresso.jpg" alt="Nespresso Machine">
-               <figcaption>
-                   <strong>&#163;160</strong>
-               </figcaption>
-               <button class="addToCart">
-                   <a href="#">Place in Basket</a>
-               </button>
-           </figure>
-       </article>
-          
-       <article class="onlineshop">
-           <figure>
-               <img src="img/ironkettle.jpg" alt="Tea kettle">
-               <figcaption>
-                   <strong>&#163;20</strong>
-               </figcaption>
-               <button class="addToCart">
-                   <a href="#">Place in Basket</a>
-               </button>
-           </figure>
-       </article>
-          
-       <article class="onlineshop">
-           <figure>
-               <img src="img/coffeebeans.jpg" alt="Coffee beans">
-               <figcaption>
-                   <strong>&#163;10</strong>
-               </figcaption>
-               <button class="addToCart">
-                   <a href="#">Place in Basket</a>
-               </button>
-           </figure>
-       </article>
-          
-       <article class="onlineshop">
-           <figure>
-               <img src="img/teabags.jpg" alt="Tea bags">
-               <figcaption>
-                   <strong>&#163;12</strong>
-               </figcaption>
-               <button class="addToCart">
-                   <a href="#">Place in Basket</a>
-               </button>
-           </figure>
-       </article>
-          
-       <article class="onlineshop">
-           <figure>
-               <img src="img/pot.jpg" alt="Tea Pot">
-               <figcaption>
-                   <strong>&#163;16</strong>
-               </figcaption>
-               <button class="addToCart">
-                   <a href="#">Place in Basket</a>
-               </button>
-           </figure>
-       </article>
-      </div> 
-   </section>
-   
-   <!------------------------------------------ CONTACT SECTION ---------------------------------------------------------------------------->
-   
-   <section id="contact" class="sections">
-      
-       <h2 id="contactinfo">Contact us</h2>
-       
-       <div id="inputform">
-           <h1 class="brand">Gran Café Macondo</h1>
-           <div class="wrapper animated bounceInLeft">
-               <div class="company-info">
-                   <ul>
-                       <li><i class="fa fa-road"></i>Avenida Gabriel García Márquez 100, Macondo</li>
-                       <li><i class="fa fa-phone"></i>cafemacondo@macomail.com</li>
-                       <li><i class="fa fa-envelope"></i>(555) 555-5555</li>
-                   </ul>
-               </div>
-               <div class="contact">
-                   <h3>Email Us</h3>
-                   <form>
-                       <p>
-                           <label>Name</label>
-                           <input type="text" name="name">
-                       </p>
-                       <p>
-                            <label>Company</label>
-                            <input type="text" name="company">
-                    </p>
-                    <p>
-                            <label>Email Address</label>
-                            <input type="email" name="email">
-                    </p>
-                    <p>
-                            <label>Phone Number</label>
-                            <input type="text" name="phone">
-                    </p>
-                    <p class="full">
-                            <label>Message</label>
-                            <textarea name="message" rows="5"></textarea>
-                    </p>
-                    <p class="full">
-                        <button>Submit</button>
-                    </p>
-                   </form>
-               </div>
-           </div>
-       </div>
-       
-   </section>
-   
-<!---------------------------------------------------------- FOOTER ---------------------------------------------------------------------------->
-  
-   <footer id="footer" class="sections">
-      
-       <h2>Bacartegia Studios - Front End Developers</h2>
-             
-       <div class="socialmedia">
-           <a href="https://www.facebook.com/">
-                <i class="fab fa-facebook-square"></i>
-           </a>
-           <a href="https://twitter.com/">
-                <i class="fab fa-twitter-square"></i>
-           </a>
-           <a href="https://www.instagram.com/">
-                <i class="fab fa-instagram"></i>
-           </a>
-           <a href="https://www.linkedin.com/">
-                <i class="fab fa-linkedin"></i>
-           </a>
-       </div>
-       
-       <div class="info">
-           &copy;2019 Alberto Castelan 
-       </div>
-       
-   </footer>
-   
-<!------------------------------------------------ SCRIPTS SECTION ----------------------------------------------------------------------------->     
+    <!-- <footer class="footer">
+      <h2>Alberto Castelan - Front End Developer</h2>
 
-       <!-- JQUERY LINK CODE-->
-        <script
-          src="https://code.jquery.com/jquery-3.3.1.min.js"
-          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-          crossorigin="anonymous">
-        </script>
-          
-        <!--<script src="js/wow.min.js"></script>-->
-    
-        <!--<script>
-          new WOW().init();
-        </script>-->
-    
-        <script src="js/main.js"></script> 
-      
-</body>
+          <div class="social-media">
+              <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+          </div>
+
+          <div class="info">
+              <p>&copy;2021 Alberto Castelan</p>
+          </div>
+    </footer> -->
+
+    <script src="js/main.js" type="module"></script>
+  </body>
 </html>

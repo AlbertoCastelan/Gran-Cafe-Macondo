@@ -1,18 +1,12 @@
 
+const bars = document.querySelector('.header__bars');
+const times = document.querySelector('.header__times');
+const navlist = document.querySelector('.header__nav');
 
-$(document).ready(function() {
-    $(".navBtn .fa-times").hide();
-    
-    $(".navBtn .fa-bars").click(function() {
-        $(this).hide();
-        $(".navBtn .fa-times").show();
-        $("nav#mobile ul").addClass("active");
-    });
-    
-    $(".navBtn .fa-times").click(function() {
-        $(this).hide();
-        $(".navBtn .fa-bars").show();
-        $("nav#mobile ul").removeClass("active");
-    });
-    
-});
+const toggleClass = () => {
+  navlist.classList.toggle('active');
+}
+
+bars.addEventListener('click', toggleClass);
+times.addEventListener('click', toggleClass);
+
